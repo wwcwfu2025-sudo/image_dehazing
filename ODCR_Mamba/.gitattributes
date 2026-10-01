@@ -1,0 +1,3 @@
+# Preserve exact release bytes so SHA-256 checks remain valid on all platforms.
+* -text
+# Generated: 2026-10-01 10:00 +08:00

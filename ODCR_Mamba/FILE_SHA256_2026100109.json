@@ -175,6 +175,11 @@
     "weights/odcr_mamba_d696_state_dict.pt": {
       "sha256": "7F9474B9AE6D42287EB72AE5F750AA284824EE67D14538F2C6F01DDC4F695FC2",
       "bytes": 8312585
+    },
+    ".gitattributes": {
+      "sha256": "698F253DFD5495A789CE573C2CF260E959868E096363A76EC289C66F69277284",
+      "bytes": 125
     }
-  }
+  },
+  "git_byte_preservation": "ODCR_Mamba/.gitattributes disables line-ending conversion for this release directory."
 }
