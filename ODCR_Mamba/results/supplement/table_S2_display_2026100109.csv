@@ -1,0 +1,9 @@
+Image,Tolerance (px),Correct matches ↑,Precision ↑,Recovery ↑
+Hazy input,1,342.269,0.817,0.177
+ODCR-Mamba,1,394.872,0.830,0.206
+Hazy input,3,349.815,0.847,0.181
+ODCR-Mamba,3,409.497,0.887,0.213
+Hazy input,5,350.665,0.850,0.181
+ODCR-Mamba,5,411.076,0.891,0.214
+Hazy input,8,351.168,0.852,0.181
+ODCR-Mamba,8,412.067,0.894,0.215

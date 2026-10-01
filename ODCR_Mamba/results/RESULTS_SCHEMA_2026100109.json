@@ -1,0 +1,36 @@
+{
+  "natural_and_sots_ssim": "RGB Gaussian window 11x11, sigma 1.5, valid region.",
+  "rrshid_ssim": "RGB Uniform11, zero padding; separate metric identity from Gaussian11.",
+  "psnr": "Higher is better, dB.",
+  "lpips_dists": "Lower is better.",
+  "branch_ids": {
+    "direct": "direct reconstruction",
+    "physical": "scattering-constrained reconstruction",
+    "output": "final pixelwise fused output"
+  },
+  "sample_keys": "Dataset-scoped pair_key identifiers are retained, not local filesystem paths. source_name is a dataset-relative image name.",
+  "sots_sample_relationship": {
+    "Table_V": {
+      "file": "results/per_image/sots500_odcr_1000_2026100109.csv",
+      "method_id": "ODCR-D696",
+      "D01_SOTS_Indoor_pairs": 500,
+      "D02_SOTS_Outdoor_pairs": 500,
+      "metrics": [
+        "PSNR",
+        "SSIM_Gaussian11",
+        "LPIPS",
+        "DISTS"
+      ],
+      "evidence_status": "HASH_VERIFIED_SUPPLEMENT_NOT_STRICT_FINAL"
+    },
+    "Table_S1": {
+      "all_methods_file": "results/per_image/sots200_all_methods_4400_2026100109.csv",
+      "fixed_model_subset_file": "results/per_image/sots200_odcr_400_2026100109.csv",
+      "methods": 11,
+      "pairs_per_method_per_dataset": 200
+    },
+    "overlap": "All 400 fixed-model S1 records are a strict subset of the 1000 Table V records. Input/GT/output/checkpoint hashes and PSNR/SSIM match. The 400-row convenience file also duplicates the ODCR-D696 rows in the 4400-row file. Do not add these overlapping exports as independent samples."
+  },
+  "hash_scope": "Image hashes are inherited from source records; CSV/JSON/DOCX source file hashes were computed in this export. Raw image pixels were not opened or rehashed.",
+  "statuses": "Retained evidence/status labels are not promoted into a new formal validation claim."
+}

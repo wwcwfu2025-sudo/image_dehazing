@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+outputs/
+.DS_Store
+# Generated: 2026-10-01 09:00 +08:00

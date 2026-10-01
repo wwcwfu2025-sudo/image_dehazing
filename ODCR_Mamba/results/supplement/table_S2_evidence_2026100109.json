@@ -1,0 +1,128 @@
+{
+  "title": "SIFT correspondence sensitivity to the coordinate-distance threshold",
+  "rows": [
+    {
+      "method_id": "Input",
+      "method": "Hazy input",
+      "threshold_pixels": 1,
+      "pairs": 185,
+      "correct": 342.26868686868687,
+      "precision": 0.8171513987519681,
+      "recovery": 0.17708204519121915
+    },
+    {
+      "method_id": "Input",
+      "method": "Hazy input",
+      "threshold_pixels": 3,
+      "pairs": 185,
+      "correct": 349.815404040404,
+      "precision": 0.846579599483038,
+      "recovery": 0.18085087288488366
+    },
+    {
+      "method_id": "Input",
+      "method": "Hazy input",
+      "threshold_pixels": 5,
+      "pairs": 185,
+      "correct": 350.66464646464647,
+      "precision": 0.850437803672208,
+      "recovery": 0.18127951063625014
+    },
+    {
+      "method_id": "Input",
+      "method": "Hazy input",
+      "threshold_pixels": 8,
+      "pairs": 185,
+      "correct": 351.16843434343434,
+      "precision": 0.8515025174148118,
+      "recovery": 0.18144973822194368
+    },
+    {
+      "method_id": "ODCR-D696",
+      "method": "ODCR-Mamba",
+      "threshold_pixels": 1,
+      "pairs": 185,
+      "correct": 394.8719696969697,
+      "precision": 0.8301118766753524,
+      "recovery": 0.2056529420123326
+    },
+    {
+      "method_id": "ODCR-D696",
+      "method": "ODCR-Mamba",
+      "threshold_pixels": 3,
+      "pairs": 185,
+      "correct": 409.49747474747477,
+      "precision": 0.8871338174086429,
+      "recovery": 0.21343996121072228
+    },
+    {
+      "method_id": "ODCR-D696",
+      "method": "ODCR-Mamba",
+      "threshold_pixels": 5,
+      "pairs": 185,
+      "correct": 411.0760101010101,
+      "precision": 0.891156070902332,
+      "recovery": 0.21423900259439446
+    },
+    {
+      "method_id": "ODCR-D696",
+      "method": "ODCR-Mamba",
+      "threshold_pixels": 8,
+      "pairs": 185,
+      "correct": 412.06717171717173,
+      "precision": 0.8936910951206758,
+      "recovery": 0.2146914239652548
+    }
+  ],
+  "aggregation": "Compute an arithmetic mean within each dataset, then average the four dataset means with equal weight (30/45/55/55 pairs; 185 total).",
+  "max_absolute_aggregate_difference": 5.684341886080802e-14,
+  "caption_note": "Identical SIFT and matching settings are used before and after dehazing: nfeatures=2000, nOctaveLayers=3, contrastThreshold=0.04, edgeThreshold=10, sigma=1.6, L2 nearest-neighbor matching, and Lowe ratio 0.75. Correctness uses coordinate distance in registered image pairs; no geometric transform is fitted. Precision and unique-reference-keypoint recovery are imagewise ratios before aggregation. This is a feature-correspondence diagnostic, not object-detection AP.",
+  "protocol": {
+    "experiment": "Frozen SIFT feature correspondence after dehazing",
+    "hypothesis": "Restoration can make reference-consistent local features more recoverable; additional keypoints alone do not establish this.",
+    "dataset_ids": [
+      "D04",
+      "D05",
+      "D06",
+      "D07"
+    ],
+    "sift": {
+      "nfeatures": 2000,
+      "nOctaveLayers": 3,
+      "contrastThreshold": 0.04,
+      "edgeThreshold": 10,
+      "sigma": 1.6
+    },
+    "matching": {
+      "norm": "L2",
+      "knn": 2,
+      "ratio": 0.75,
+      "geometric_threshold_pixels": [
+        1,
+        3,
+        5,
+        8
+      ],
+      "geometry": "Identity geometry of registered pairs; Euclidean distance between matched keypoint coordinates. No RANSAC fitting to improve scores."
+    },
+    "report": [
+      "detected_keypoints",
+      "ratio_passed_matches",
+      "correct_matches_at_each_threshold",
+      "precision_at_each_threshold",
+      "unique_reference_keypoint_recovery_at_each_threshold"
+    ],
+    "empty_case_policy": "Zero accepted matches gives zero precision; zero reference features gives zero recovery and a separate flag. Count every case.",
+    "aggregation": "Arithmetic image means, reported per dataset and equal dataset macro; no seed comparison.",
+    "limitations": "A fixed local-feature downstream diagnostic; not target-detection AP, not a registration benchmark with unknown camera transforms.",
+    "source_documents": [
+      "https://docs.opencv.org/4.x/dc/dc3/tutorial_py_matcher.html",
+      "https://docs.opencv.org/4.x/d7/d60/classcv_1_1SIFT.html"
+    ],
+    "evaluated_table_methods": [
+      "Input",
+      "ODCR-D696"
+    ]
+  },
+  "source": "new_algorithm_project/phase17_odcr_mamba/paper_preparation/standalone_rewrite_2026081813/V74_replacement_downstream_2026091713/data/SIFT_INPUT_ODCR_ONLY_2026091713.csv"
+}

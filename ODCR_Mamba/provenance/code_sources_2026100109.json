@@ -1,0 +1,36 @@
+{
+  "source_files": [
+    {
+      "project_relative_path": "new_algorithm_project/phase17_odcr_mamba/paper_preparation/standalone_rewrite_2026081813/code/standalone_odcr_mamba.py",
+      "sha256": "A0404B84601930C94FC110B1C1955B16C0466D33C7486B056FE2868C96AE6BBC"
+    },
+    {
+      "project_relative_path": "new_algorithm_project/phase17_odcr_mamba/src/odcr_mamba/model.py",
+      "sha256": "5B37A085F89AC8D0C1E2A5748BFF96D03F37C46299B42B612CDF0CF089A21BE3"
+    },
+    {
+      "project_relative_path": "new_algorithm_project/phase17_odcr_mamba/src/odcr_mamba/scan.py",
+      "sha256": "BEA0326A13884C9FEF1A41656933F2DBEB662221A1433D1AE71F697141DCC755"
+    },
+    {
+      "project_relative_path": "new_algorithm_project/phase17_odcr_mamba/src/odcr_mamba/losses.py",
+      "sha256": "1AE254818D3CA9B80C3E92F6787261DB5931F61A803B26A9E7DC471564DD7485"
+    },
+    {
+      "project_relative_path": "new_algorithm_project/phase17_odcr_mamba/src/odcr_mamba/metrics.py",
+      "sha256": "C6D04C69DD2DAD9697DBE4DA2835DF3374ECF6271BB750C1A9F60EED81885FA5"
+    },
+    {
+      "project_relative_path": "new_algorithm_project/phase17_odcr_mamba/paper_preparation/standalone_rewrite_2026081813/configs/standalone_full.yaml",
+      "sha256": "E2B23443B4E8145BFA1A07FC5F576DB633765D4FD1E5E5C650A01789484742D8"
+    }
+  ],
+  "transformations": [
+    "Moved fixed StandaloneODCRMamba and ODStage classes unchanged into model.py; updated local import.",
+    "Extracted the five required block classes without changing their bodies.",
+    "Preserved scan.py and training metric functions; added explanatory comments.",
+    "Replaced the loss configuration type dependency with a dataclass containing standalone coefficients; loss function bodies unchanged.",
+    "Removed unrelated prototype/refiner/router models and alternate smoke-model constructor."
+  ],
+  "generated_at_hour": "2026-10-01 09:00 +08:00"
+}

@@ -1,0 +1,6 @@
+# Tested reference environment: Python 3.8.20, torch 1.10.0, numpy 1.24.4, Pillow 9.4.0.
+# Install the appropriate PyTorch CPU/CUDA build for your platform separately if needed.
+torch>=1.10
+numpy>=1.21
+Pillow>=9.4
+# Generated: 2026-10-01 09:00 +08:00

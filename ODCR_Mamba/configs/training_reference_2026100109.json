@@ -1,0 +1,31 @@
+{
+  "scope": "Metadata for the selected checkpoint, not an executable training recipe or a complete training reproduction package.",
+  "selected_step": 60000,
+  "crop_stage": 0,
+  "crop_size": 128,
+  "batch_size": 2,
+  "optimizer": "AdamW",
+  "learning_rate": 0.0002,
+  "minimum_learning_rate": 1e-06,
+  "weight_decay": 0.0001,
+  "betas": [
+    0.9,
+    0.99
+  ],
+  "warmup_steps": 5000,
+  "learning_rate_schedule_horizon_steps": 250000,
+  "schedule_note": "The schedule horizon is not the selected checkpoint step and does not claim completed training to that horizon.",
+  "loss": {
+    "direct": 0.2,
+    "physical": 0.05,
+    "redegradation": 0.2,
+    "depth_smoothness": 0.01,
+    "optical_depth_supervision": 0.1,
+    "atmospheric_light_supervision": 0.02,
+    "cvar": 0.3,
+    "cvar_fraction": 0.2
+  },
+  "selection_criterion": "macro validation PSNR",
+  "data_note": "Local paired training data include RRSHID, derived 8KDehaze tiles, and derived RGBD-Haze data. Original data and local pairing files are not redistributed.",
+  "generated_at_hour": "2026-10-01 09:00 +08:00"
+}

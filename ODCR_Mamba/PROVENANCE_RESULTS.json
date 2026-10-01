@@ -1,0 +1,367 @@
+{
+  "export_id": "2026100109",
+  "paper_version": "V100 2026100108",
+  "checkpoint_sha256": "D696BBFA42DD1A840708B9C42E824036862ED17D538B2B47551641D8145854DB",
+  "scope": "Read-only extraction and scalar arithmetic over existing evidence. No training, model inference, image metric recomputation, raw images, private absolute paths, checkpoint files, or network publication.",
+  "sources_project_relative_to": "image_dehazing repository root",
+  "sources": {
+    "new_algorithm_project/phase17_odcr_mamba/paper_preparation/standalone_rewrite_2026081813/V100_精简审稿修订红字_2026100108/ODCR_Mamba_TGRS_Redline_2026100108.docx": {
+      "sha256": "2E2E56B34174A9B31F1C291C516C6085207C3974C2FCBB2AEDD4FBFBA6890DF9",
+      "bytes": 77023163
+    },
+    "new_algorithm_project/phase17_odcr_mamba/paper_preparation/standalone_rewrite_2026081813/V100_精简审稿修订红字_2026100108/ODCR_Mamba_Supplement_Redline_2026100108.docx": {
+      "sha256": "A1EA2411BF2183974895445FCF2DBB0B22550F2DA222900C7D1819E8FECCAC0F",
+      "bytes": 42159
+    },
+    "new_algorithm_project/phase17_odcr_mamba/paper_preparation/standalone_rewrite_2026081813/V78_删除英文摘要与SLP_2026091823/data/PAPER_FOUR_METRICS_2026091823.csv": {
+      "sha256": "DC0F123212E95D3D34DF552EE18F0A625C91985B057F2836C42067A59D1241D8",
+      "bytes": 1447550
+    },
+    "new_algorithm_project/phase17_odcr_mamba/paper_preparation/standalone_rewrite_2026081813/V67_research_revision_2026091321/TABLES_AND_CLAIMS_2026091321.json": {
+      "sha256": "ED0331E2A927FDCB6A3B2DB4FCBF2730E680B2B248B5831C03DE23634EA57A48",
+      "bytes": 24859
+    },
+    "new_algorithm_project/phase17_odcr_mamba/paper_preparation/standalone_rewrite_2026081813/V80_实测证据与独立子图修订_2026091913/data/MEANS_2026091914.json": {
+      "sha256": "8A371C26951CDE46D35B9607D13881330EF0F5C2E324FEEB9BA22EE1C8F5E12E",
+      "bytes": 1567
+    },
+    "new_algorithm_project/phase17_odcr_mamba/paper_preparation/standalone_rewrite_2026081813/V78_删除英文摘要与SLP_2026091823/data/PAPER_MEANS_2026091823.csv": {
+      "sha256": "5DFCFF3AE48FFBF322B0CA40E35D737CE157D7089C78F712E1F3B15A3AD298DB",
+      "bytes": 6421
+    },
+    "new_algorithm_project/phase17_odcr_mamba/paper_preparation/standalone_rewrite_2026081813/completed_comparison_r2_2026091309/FOUR_METRICS_PER_IMAGE_2026091309.csv": {
+      "sha256": "6CCDBC3BB230B5C031DA79DE4E16B8DD77079E2A65895476A8115C8895CFA2FD",
+      "bytes": 2527248
+    },
+    "new_algorithm_project/phase17_odcr_mamba/paper_preparation/standalone_rewrite_2026081813/V78_删除英文摘要与SLP_2026091823/data/TABLE4_RESTORED_SOURCE_2026091823.csv": {
+      "sha256": "9204C44D2DD4C7C2FEFB3CABDAC97B32AF2F73F732325A2991B2A57A23F02D3A",
+      "bytes": 1337
+    },
+    "new_algorithm_project/phase17_odcr_mamba/paper_preparation/standalone_rewrite_2026081813/V78_删除英文摘要与SLP_2026091823/data/PAIRED_INPUT_ODCR_METRICS_2026091823.csv": {
+      "sha256": "882E2C557F09BC30619F3F78D593DD63255B838D4EEF422D397ABE4B000A63A3",
+      "bytes": 169098
+    },
+    "new_algorithm_project/phase17_odcr_mamba/paper_preparation/standalone_rewrite_2026081813/V74_replacement_downstream_2026091713/data/SIFT_INPUT_ODCR_ONLY_2026091713.csv": {
+      "sha256": "3EBF4F38A36449EA0C476A1DC8A85ECC0293D96649D7F1B30038C8351279DA40",
+      "bytes": 122381
+    },
+    "new_algorithm_project/phase17_odcr_mamba/paper_preparation/standalone_rewrite_2026081813/fixed_model_branch_diagnostic_r2_2026090822/full/branch_four_metrics_2026090822.csv": {
+      "sha256": "2948F036806B0942AACFBC10E98DCDD40DC35D86CFC07F22EFB369C3A2E63EEF",
+      "bytes": 557241
+    },
+    "new_algorithm_project/phase17_odcr_mamba/paper_preparation/standalone_rewrite_2026081813/fixed_model_branch_diagnostic_r2_2026090822/full/BRANCH_FOUR_METRIC_DIAGNOSTIC_SUMMARY_2026090822.json": {
+      "sha256": "B45DCB98368F9F8E42D5A6E4EDD583DB65096940FB482260B801B33D43508B57",
+      "bytes": 6228
+    },
+    "new_algorithm_project/phase17_odcr_mamba/paper_preparation/revision_v100_2026100108/SUPPLEMENT_EVIDENCE_2026100108.json": {
+      "sha256": "E769DCD7A4C215A946E47DDEEF2464033336D47B51F0BC32B9D8F99C5950C470",
+      "bytes": 26364
+    },
+    "new_algorithm_project/phase17_odcr_mamba/paper_preparation/revision_v100_2026100108/PAIRED_BRANCH_STATISTICS_2026100108.json": {
+      "sha256": "085FD08576098DF5B03E0E586DCE37B651037C6BF4FD39EA1D215F814763931D",
+      "bytes": 4791
+    },
+    "new_algorithm_project/phase17_odcr_mamba/paper_preparation/standalone_rewrite_2026081813/V78_删除英文摘要与SLP_2026091823/data/SOTS200_PER_IMAGE_2026091823.csv": {
+      "sha256": "EA2415328738FFA62712160455B8A560ABF18CD1465D7466CEC90B36903A0469",
+      "bytes": 2841803
+    },
+    "new_algorithm_project/phase17_odcr_mamba/paper_preparation/standalone_rewrite_2026081813/result_autofill_2026090711/rrshid_test_manifest_2026090711/T01_RRSHID_TEST_PAIR_MANIFEST_2026090711.csv": {
+      "sha256": "29CDDC855FD7742C86D775F1D01094E1194D8494C0B0CDCB5517230BD4125D14",
+      "bytes": 142707
+    },
+    "new_algorithm_project/phase17_odcr_mamba/results/formal_lpips_dists_2026090803/T02_R06_C05_ODCR_RRSHID_TEST304_LPIPS_DISTS_FORMAL_CANDIDATE_2026090803.csv": {
+      "sha256": "178E9222DF71DE17E700FE56A8F395512281A6760814EFACABFB9AD5830AA22D",
+      "bytes": 44711
+    },
+    "new_algorithm_project/phase17_odcr_mamba/paper_preparation/standalone_rewrite_2026081813/fixed_model_branch_diagnostic_r2_2026090822/full/summary_2026090822.json": {
+      "sha256": "A5DEE9DC47D6509D4210CB806E7456D1F8810672555268CCDF8E6AF5A1F1168E",
+      "bytes": 5182
+    },
+    "new_algorithm_project/phase17_odcr_mamba/paper_preparation/standalone_rewrite_2026081813/fixed_model_branch_diagnostic_r2_2026090822/full/per_image_branches_2026090822.csv": {
+      "sha256": "D2327BD12C7774335172D71E00779B6DBFED1CB47CF52ABA66A285C04EF2A56D",
+      "bytes": 521906
+    },
+    "new_algorithm_project/phase17_odcr_mamba/paper_preparation/standalone_rewrite_2026081813/fixed_model_branch_diagnostic_r2_2026090822/full/per_image_fusion_2026090822.csv": {
+      "sha256": "099E400C127EBFE4A9575888E9FF05CE1FABCA8B8338AA40CF01F28C9108F8A1",
+      "bytes": 80593
+    },
+    "new_algorithm_project/phase17_odcr_mamba/paper_preparation/standalone_rewrite_2026081813/fixed_model_branch_diagnostic_r2_2026090822/full/branch_lpips_dists_2026090822.csv": {
+      "sha256": "047E9A6343A20A546E7D4A0270815879BFDE456A38685A3D64895E1AC24F1F50",
+      "bytes": 111760
+    },
+    "new_algorithm_project/phase17_odcr_mamba/paper_preparation/standalone_rewrite_2026081813/result_autofill_2026090711/fixed_odcr_rrshid_test_2026090711/formal_304/FORMAL_PER_IMAGE_2026090711.csv": {
+      "sha256": "CAFC3897829D8E0432298A9751775A51BD7EE945E989E4AC287DB8AA7122F9BA",
+      "bytes": 760108
+    },
+    "new_algorithm_project/phase17_odcr_mamba/paper_preparation/revision_v100_2026100108/paired_branch_bootstrap_2026100108.py": {
+      "sha256": "B60DF7E7FAE0F4EAFA9CD39580E5B7234606FBB23817B738D3A2F0D7F955433D",
+      "bytes": 7655
+    },
+    "new_algorithm_project/phase17_odcr_mamba/paper_preparation/github_release_2026100109/export_public_results_2026100109.py": {
+      "sha256": "CC7CC99C2621453B611A781DE03D86D3D3E8C628F39EDD5D334FA02038F1075E",
+      "bytes": 29549
+    }
+  },
+  "outputs": {
+    "results/main_tables/table_I_display_2026100109.csv": {
+      "sha256": "BF378E90DBF3E627AB5915B2B93319D2DE3F85DD50053DF3897DE06E872B1307",
+      "bytes": 1374,
+      "kind": "paper_display_values",
+      "data_rows": 11
+    },
+    "results/main_tables/table_II_display_2026100109.csv": {
+      "sha256": "54C350416CBEEE2603ED0C1DAC1CDB6A72AA9B3DC538E8AB6A4ACC89B9AA79C9",
+      "bytes": 1214,
+      "kind": "paper_display_values",
+      "data_rows": 11
+    },
+    "results/main_tables/table_III_display_2026100109.csv": {
+      "sha256": "846C6B95B37069089281862686E582444B5369D7EC1416A5F5446B2272BB6443",
+      "bytes": 480,
+      "kind": "paper_display_values",
+      "data_rows": 11
+    },
+    "results/main_tables/table_IV_display_2026100109.csv": {
+      "sha256": "61BD632A1DF204E3C02847F8B24C01379EF02868DE975F13AF7BDB3D4EFDD31D",
+      "bytes": 1255,
+      "kind": "paper_display_values",
+      "data_rows": 11
+    },
+    "results/main_tables/table_V_display_2026100109.csv": {
+      "sha256": "11C5FB84B58E9AB824C008D5B636ED4186B51CA88A5BF61B4CBA81B45DDFFC0F",
+      "bytes": 129,
+      "kind": "paper_display_values",
+      "data_rows": 2
+    },
+    "results/main_tables/table_VI_display_2026100109.csv": {
+      "sha256": "7EDC42DF62A032231E0AC7102A8F5E5676BE07219AB1E84F514B581DF82E31AE",
+      "bytes": 338,
+      "kind": "paper_display_values",
+      "data_rows": 6
+    },
+    "results/main_tables/table_VII_display_2026100109.csv": {
+      "sha256": "DB81B1E06E6FA2D6DBEAACD5F26F5D0B823C1275521CAB200B911F0254A6459E",
+      "bytes": 130,
+      "kind": "paper_display_values",
+      "data_rows": 2
+    },
+    "results/main_tables/table_VIII_display_2026100109.csv": {
+      "sha256": "CDB6D890E4406AE47D1D3272C9B28C738E79183A59E3D996BB7574ACA758B4BD",
+      "bytes": 165,
+      "kind": "paper_display_values",
+      "data_rows": 3
+    },
+    "results/main_tables/main_tables_fullprecision_2026100109.json": {
+      "sha256": "753F0DF6A5E9143AA97A6843EE75A75BC27B99D3420554CA7D9672DF42EAB299",
+      "bytes": 44307,
+      "kind": "machine_readable_scalar_evidence"
+    },
+    "results/supplement/table_S1_display_2026100109.csv": {
+      "sha256": "501CBC20F723E6BBBE2B0C76AFFE54EF24D6077E17C44864DB9D87E61A9441B4",
+      "bytes": 464,
+      "kind": "paper_display_values",
+      "data_rows": 11
+    },
+    "results/supplement/table_S2_display_2026100109.csv": {
+      "sha256": "3EB038B0601DDD60C7E6CC9593C53C1F9319060434BA53B1EB1E99D9BEC9563A",
+      "bytes": 332,
+      "kind": "paper_display_values",
+      "data_rows": 8
+    },
+    "results/supplement/table_S3_display_2026100109.csv": {
+      "sha256": "E78B409C31B37AF9A9DF450976A3B3157FE4926F9A8987948BA02776871F3238",
+      "bytes": 1633,
+      "kind": "paper_display_values",
+      "data_rows": 10
+    },
+    "results/supplement/table_S4_display_2026100109.csv": {
+      "sha256": "BD35BD57AEBF182752960A68B23359096DE2EE0AC7CB88738A2DDFA84AD3636A",
+      "bytes": 231,
+      "kind": "paper_display_values",
+      "data_rows": 4
+    },
+    "results/supplement/table_S1_evidence_2026100109.json": {
+      "sha256": "622C48BD5FC20562A22CF591837720DAB1ADE912E1721AC18AF8EFE0A33CFD38",
+      "bytes": 4711,
+      "kind": "machine_readable_scalar_evidence"
+    },
+    "results/supplement/table_S2_evidence_2026100109.json": {
+      "sha256": "8BB2CA5F541D949E8CBFCEC5F8904AA07C7A28D7EE57142DDB01878E2F7D18D8",
+      "bytes": 4542,
+      "kind": "machine_readable_scalar_evidence"
+    },
+    "results/supplement/table_S3_evidence_2026100109.json": {
+      "sha256": "C1BFB86A668429E49DC8EC92F8A29C65E093020A158CAB6513E060FBEF182986",
+      "bytes": 8361,
+      "kind": "machine_readable_scalar_evidence"
+    },
+    "results/supplement/table_S4_evidence_2026100109.json": {
+      "sha256": "79FE3B54A16F3144C563AB983DEFD4CE00E8D7D7B66BD086961E1B9E3B8A4113",
+      "bytes": 5070,
+      "kind": "machine_readable_scalar_evidence"
+    },
+    "results/per_image/odcr_natural_185_2026100109.csv": {
+      "sha256": "74C3E70B560EB2272078843F4A245AD9C91F0C01BFA728F720B53DC9B380C8B9",
+      "bytes": 76785,
+      "kind": "per_image_scalar_records",
+      "data_rows": 185
+    },
+    "results/per_image/sots500_odcr_1000_2026100109.csv": {
+      "sha256": "C623125251ED80CA759B28DB9BE75DA73BA600066624FEAD5F6D121EAF640F7B",
+      "bytes": 416150,
+      "kind": "per_image_scalar_records",
+      "data_rows": 1000
+    },
+    "results/per_image/sots200_all_methods_4400_2026100109.csv": {
+      "sha256": "6F9C60CEB87B806018D7225FE5D9A02E0943B7AF88D032068C3173A446655173",
+      "bytes": 1274327,
+      "kind": "per_image_scalar_records",
+      "data_rows": 4400
+    },
+    "results/per_image/sots200_odcr_400_2026100109.csv": {
+      "sha256": "3FD6722D9B331DDF81D7FB61F90340DFC51733F8CCD78120ED174B86B77F7A3A",
+      "bytes": 141445,
+      "kind": "per_image_scalar_records",
+      "data_rows": 400
+    },
+    "results/per_image/odcr_rrshid_branches_912_2026100109.csv": {
+      "sha256": "C71E79E39AB014BC3CA0957911898553F727CD87F922735060BF0BE6B158784E",
+      "bytes": 428782,
+      "kind": "per_image_scalar_records",
+      "data_rows": 912
+    },
+    "results/per_image/odcr_rrshid_test304_2026100109.csv": {
+      "sha256": "E403AB83AFA9D6943E02D70396F14E20A45B8F75726F1A528C706C9935403676",
+      "bytes": 146772,
+      "kind": "per_image_scalar_records",
+      "data_rows": 304
+    },
+    "results/RESULTS_SCHEMA_2026100109.json": {
+      "sha256": "DC0C2F30577A18B368ACAECE941DB540E93555AF6DFD882F1C54FB997018F692",
+      "bytes": 1801,
+      "kind": "schema_and_interpretation"
+    }
+  },
+  "validation": {
+    "main_word_table_count": 20,
+    "supplement_word_table_count": 4,
+    "natural_all_methods_unique_2035": true,
+    "Table_I_all_display_cells_match_fullprecision": true,
+    "Table_II_all_display_cells_match_fullprecision": true,
+    "Table_III_all_display_cells_match_fullprecision": true,
+    "natural_aggregate_M01_D04": true,
+    "natural_aggregate_M01_D05": true,
+    "natural_aggregate_M01_D06": true,
+    "natural_aggregate_M01_D07": true,
+    "natural_aggregate_M02_D04": true,
+    "natural_aggregate_M02_D05": true,
+    "natural_aggregate_M02_D06": true,
+    "natural_aggregate_M02_D07": true,
+    "natural_aggregate_S12_D04": true,
+    "natural_aggregate_S12_D05": true,
+    "natural_aggregate_S12_D06": true,
+    "natural_aggregate_S12_D07": true,
+    "natural_aggregate_M07_D04": true,
+    "natural_aggregate_M07_D05": true,
+    "natural_aggregate_M07_D06": true,
+    "natural_aggregate_M07_D07": true,
+    "natural_aggregate_M10_D04": true,
+    "natural_aggregate_M10_D05": true,
+    "natural_aggregate_M10_D06": true,
+    "natural_aggregate_M10_D07": true,
+    "natural_aggregate_M32_D04": true,
+    "natural_aggregate_M32_D05": true,
+    "natural_aggregate_M32_D06": true,
+    "natural_aggregate_M32_D07": true,
+    "natural_aggregate_M12_D04": true,
+    "natural_aggregate_M12_D05": true,
+    "natural_aggregate_M12_D06": true,
+    "natural_aggregate_M12_D07": true,
+    "natural_aggregate_M19_D04": true,
+    "natural_aggregate_M19_D05": true,
+    "natural_aggregate_M19_D06": true,
+    "natural_aggregate_M19_D07": true,
+    "natural_aggregate_S01_D04": true,
+    "natural_aggregate_S01_D05": true,
+    "natural_aggregate_S01_D06": true,
+    "natural_aggregate_S01_D07": true,
+    "natural_aggregate_S14_D04": true,
+    "natural_aggregate_S14_D05": true,
+    "natural_aggregate_S14_D06": true,
+    "natural_aggregate_S14_D07": true,
+    "natural_aggregate_ODCR-D696_D04": true,
+    "natural_aggregate_ODCR-D696_D05": true,
+    "natural_aggregate_ODCR-D696_D06": true,
+    "natural_aggregate_ODCR-D696_D07": true,
+    "Table_IV_all_display_cells_match_fullprecision": true,
+    "SOTS_full_D696_1000": true,
+    "SOTS_full_aggregate_D01": true,
+    "SOTS_full_aggregate_D02": true,
+    "Table_V_all_display_cells_match_fullprecision": true,
+    "paired_natural_D696_185": true,
+    "Table_VI_all_display_cells_match_fullprecision": true,
+    "SIFT_input_D696_370_unique": true,
+    "SIFT_record_hash_join_to_fixed_natural_model": true,
+    "Table_VII_all_display_cells_match_fullprecision": true,
+    "branch_D696_912_unique": true,
+    "branch_count_direct": true,
+    "branch_count_physical": true,
+    "branch_count_output": true,
+    "Table_VIII_all_display_cells_match_fullprecision": true,
+    "SOTS200_all_4400_unique": true,
+    "SOTS200_D696_400": true,
+    "SOTS200_fixed_is_hash_and_metric_matched_subset_of_full1000": {
+      "overlapping_rows": 400,
+      "distinct_fixed_model_SOTS_pairs": 1000,
+      "must_not_sum_overlapping_exports": true
+    },
+    "S1_all_display_cells_match_fullprecision": true,
+    "S1_aggregate_M01_D01": true,
+    "S1_aggregate_M01_D02": true,
+    "S1_aggregate_M02_D01": true,
+    "S1_aggregate_M02_D02": true,
+    "S1_aggregate_S12_D01": true,
+    "S1_aggregate_S12_D02": true,
+    "S1_aggregate_M07_D01": true,
+    "S1_aggregate_M07_D02": true,
+    "S1_aggregate_M10_D01": true,
+    "S1_aggregate_M10_D02": true,
+    "S1_aggregate_M32_D01": true,
+    "S1_aggregate_M32_D02": true,
+    "S1_aggregate_M12_D01": true,
+    "S1_aggregate_M12_D02": true,
+    "S1_aggregate_M19_D01": true,
+    "S1_aggregate_M19_D02": true,
+    "S1_aggregate_S01_D01": true,
+    "S1_aggregate_S01_D02": true,
+    "S1_aggregate_S14_D01": true,
+    "S1_aggregate_S14_D02": true,
+    "S1_aggregate_ODCR-D696_D01": true,
+    "S1_aggregate_ODCR-D696_D02": true,
+    "S2_all_display_cells_match_fullprecision": true,
+    "S3_checkpoint_prefix_S12": true,
+    "S3_checkpoint_prefix_M07": true,
+    "S3_checkpoint_prefix_M10": true,
+    "S3_checkpoint_prefix_M32": true,
+    "S3_checkpoint_prefix_M12": true,
+    "S3_checkpoint_prefix_M19": true,
+    "S3_checkpoint_prefix_S01": true,
+    "S3_checkpoint_prefix_S14": true,
+    "S4_all_display_cells_match_fullprecision": true,
+    "RR304_formal_source_unique": true,
+    "RR304_final_output_record_hash_and_PNG_reload_scalar_join": true,
+    "natural_D696_185": true
+  },
+  "evidence_limits": [
+    "Table III comprises heterogeneous evaluation/provenance statuses and is not wholly strict-v12 formal.",
+    "Natural-image/SOTS supplemental source statuses are retained; publication here does not upgrade them to strict-final evidence.",
+    "SOTS200 uses fixed subsets; it is not the complete 500+500 Table V comparison and not a matched-training comparison.",
+    "External pretrained training-image overlap and full training histories are not independently established.",
+    "S3 identifies broad-matrix SOTS/natural-image configurations, not automatic certification of separate RRSHID inference chains.",
+    "PromptIR exact source commit and launch tile overrides are not established; 384/32 in retained evidence are adapter defaults only.",
+    "The branch comparison is a fixed-weight readout diagnostic, not retrained module removal or causal ablation.",
+    "S4 intervals condition on the saved checkpoint and reference-image sampling; they are not spatial-block intervals or training-seed variability.",
+    "No image pixels or model weights were rehashed during this export. Stored hash joins and current source CSV/JSON/DOCX hashes were checked.",
+    "CSV displays preserve textual cell values but do not reproduce DOCX bold/underline/italic rank formatting."
+  ]
+}

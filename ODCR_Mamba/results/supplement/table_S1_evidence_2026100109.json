@@ -1,0 +1,165 @@
+{
+  "title": "SOTS subset comparison using the evaluated configurations",
+  "rows": [
+    {
+      "method_id": "M01",
+      "method": "DCP",
+      "SOTS-Indoor-200": {
+        "PSNR": 18.841382014347158,
+        "SSIM_Gaussian11": 0.845985783251533
+      },
+      "SOTS-Outdoor-200": {
+        "PSNR": 16.384575430007235,
+        "SSIM_Gaussian11": 0.8429813076743371
+      }
+    },
+    {
+      "method_id": "M02",
+      "method": "CAP",
+      "SOTS-Indoor-200": {
+        "PSNR": 18.901194567397546,
+        "SSIM_Gaussian11": 0.818266984531128
+      },
+      "SOTS-Outdoor-200": {
+        "PSNR": 18.268011152675353,
+        "SSIM_Gaussian11": 0.7903572941376801
+      }
+    },
+    {
+      "method_id": "S12",
+      "method": "DehazeNet",
+      "SOTS-Indoor-200": {
+        "PSNR": 21.356183419918626,
+        "SSIM_Gaussian11": 0.8620163732611112
+      },
+      "SOTS-Outdoor-200": {
+        "PSNR": 23.027448464769112,
+        "SSIM_Gaussian11": 0.8967209319813749
+      }
+    },
+    {
+      "method_id": "M07",
+      "method": "AOD-Net",
+      "SOTS-Indoor-200": {
+        "PSNR": 19.08952961334713,
+        "SSIM_Gaussian11": 0.8263883533559542
+      },
+      "SOTS-Outdoor-200": {
+        "PSNR": 20.303495371630603,
+        "SSIM_Gaussian11": 0.9016266473573279
+      }
+    },
+    {
+      "method_id": "M10",
+      "method": "GridDehazeNet",
+      "SOTS-Indoor-200": {
+        "PSNR": 20.895775213895234,
+        "SSIM_Gaussian11": 0.8934650757511022
+      },
+      "SOTS-Outdoor-200": {
+        "PSNR": 30.880472937645486,
+        "SSIM_Gaussian11": 0.9816141287498188
+      }
+    },
+    {
+      "method_id": "M32",
+      "method": "WBPGNDN",
+      "SOTS-Indoor-200": {
+        "PSNR": 38.2380506374137,
+        "SSIM_Gaussian11": 0.9922877659841679
+      },
+      "SOTS-Outdoor-200": {
+        "PSNR": 22.833180518450245,
+        "SSIM_Gaussian11": 0.9230232665430469
+      }
+    },
+    {
+      "method_id": "M12",
+      "method": "FFA-Net",
+      "SOTS-Indoor-200": {
+        "PSNR": 18.803934104211727,
+        "SSIM_Gaussian11": 0.861517151199426
+      },
+      "SOTS-Outdoor-200": {
+        "PSNR": 33.54552247603194,
+        "SSIM_Gaussian11": 0.9835246584244102
+      }
+    },
+    {
+      "method_id": "M19",
+      "method": "MB-TaylorFormer",
+      "SOTS-Indoor-200": {
+        "PSNR": 22.676997976488266,
+        "SSIM_Gaussian11": 0.9171340956970336
+      },
+      "SOTS-Outdoor-200": {
+        "PSNR": 36.83330512918236,
+        "SSIM_Gaussian11": 0.9873514439429611
+      }
+    },
+    {
+      "method_id": "S01",
+      "method": "PromptIR",
+      "SOTS-Indoor-200": {
+        "PSNR": 24.328375095857474,
+        "SSIM_Gaussian11": 0.9259964472937797
+      },
+      "SOTS-Outdoor-200": {
+        "PSNR": 30.96790837861644,
+        "SSIM_Gaussian11": 0.9788481591721049
+      }
+    },
+    {
+      "method_id": "S14",
+      "method": "MixDehazeNet",
+      "SOTS-Indoor-200": {
+        "PSNR": 24.28791968247734,
+        "SSIM_Gaussian11": 0.927570414944963
+      },
+      "SOTS-Outdoor-200": {
+        "PSNR": 38.55508310631504,
+        "SSIM_Gaussian11": 0.9883974757906622
+      }
+    },
+    {
+      "method_id": "ODCR-D696",
+      "method": "ODCR-Mamba",
+      "SOTS-Indoor-200": {
+        "PSNR": 18.45883099037708,
+        "SSIM_Gaussian11": 0.8232296356837494
+      },
+      "SOTS-Outdoor-200": {
+        "PSNR": 23.117959728504538,
+        "SSIM_Gaussian11": 0.908579820373219
+      }
+    }
+  ],
+  "sample_structure": {
+    "SOTS-Indoor-200": {
+      "pairs": 200,
+      "distinct_clear_sources": 50,
+      "variants_per_source": [
+        4
+      ],
+      "resized_pairs": 0,
+      "selection_rule": "SHA256 deterministic within clear-source groups; indoor 4 per 50 sources; outdoor 200 unique clear sources"
+    },
+    "SOTS-Outdoor-200": {
+      "pairs": 200,
+      "distinct_clear_sources": 200,
+      "variants_per_source": [
+        1
+      ],
+      "resized_pairs": 0,
+      "selection_rule": "SHA256 deterministic within clear-source groups; indoor 4 per 50 sources; outdoor 200 unique clear sources"
+    }
+  },
+  "metrics": "RGB8 full-image PSNR and RGB Gaussian-window SSIM (11x11, sigma 1.5, valid region).",
+  "counts": {
+    "per_image_rows": 4400,
+    "method_dataset_means": 22,
+    "methods": 11
+  },
+  "max_absolute_aggregate_difference": 0.0,
+  "caption_note": "Each subset contains 200 predetermined image pairs. Indoor includes four haze realizations per 50 clear sources; outdoor includes 200 distinct clear sources. These are descriptive measurements of the evaluated pretrained configurations, not matched-training comparisons or the full 500-pair results in Table V. Ground-truth source overlap with pretrained training data is not independently established."
+}

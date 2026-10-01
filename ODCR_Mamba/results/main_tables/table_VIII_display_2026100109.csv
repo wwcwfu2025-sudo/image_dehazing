@@ -1,0 +1,4 @@
+Branch output,n,PSNR ↑,SSIM ↑,LPIPS ↓,DISTS ↓
+Direct,304,20.965,0.571,0.446,0.309
+Scattering,304,16.292,0.395,0.485,0.301
+Fused,304,21.009,0.576,0.405,0.289

@@ -1,0 +1,17 @@
+{
+  "algorithm": "ODCR-Mamba",
+  "architecture_class": "StandaloneODCRMamba",
+  "checkpoint_step": 60000,
+  "parameters": 2042064,
+  "state_tensor_count": 476,
+  "original_checkpoint": "new_algorithm_project/phase17_odcr_mamba/results/standalone_odcr_mamba_full/standalone_b8b6ca4ca759/best_macro_psnr.pt",
+  "original_checkpoint_sha256": "D696BBFA42DD1A840708B9C42E824036862ED17D538B2B47551641D8145854DB",
+  "original_checkpoint_bytes": 24970689,
+  "weights_file": "weights/odcr_mamba_d696_state_dict.pt",
+  "weights_sha256": "7F9474B9AE6D42287EB72AE5F750AA284824EE67D14538F2C6F01DDC4F695FC2",
+  "weights_bytes": 8312585,
+  "tensor_digest_sha256": "BAA51882F28A8C8CB40C7362C84D8E5132D3C08E116CC7011C6FF2154411A942",
+  "tensor_digest_definition": "Sorted state keys; each UTF-8 JSON [name,str(dtype),shape] header is prefixed by its uint64 little-endian byte length; each CPU contiguous NumPy C-order tensor byte string is prefixed by its uint64 little-endian byte length. SHA-256 over the concatenation. Export host is little-endian.",
+  "export_note": "Tensor-only export. All 476 tensors equal the original checkpoint exactly. Optimizer, scaler, random state and private configuration metadata omitted. Different container SHA-256 does not indicate different model weights.",
+  "generated_at_hour": "2026-10-01 09:00 +08:00"
+}

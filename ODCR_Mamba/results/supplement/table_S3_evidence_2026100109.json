@@ -1,0 +1,127 @@
+{
+  "title": "Available configuration provenance for the external comparators",
+  "scope_note": "These records identify the broad-matrix SOTS/natural-image configurations; they do not by themselves certify the separate RRSHID inference chain or matched training. Full hashes remain in this sidecar. Historical output hashes are retained in the source per-image CSVs; no source output pixels were rehashed in this extraction.",
+  "rows": [
+    {
+      "method_id": "M01",
+      "display_name": "DCP",
+      "recorded_executed_variant": "DCP",
+      "repository_url": "https://github.com/sjtrny/Dark-Channel-Haze-Removal",
+      "checkpoint_file": "Not applicable",
+      "checkpoint_sha256": "",
+      "source_identity": "7515f99a2f86e0ee27ff708c6a6f5cb5cd6d3f43",
+      "concise_configuration": "Dark-channel prior; omega 0.95; window 15; no learned checkpoint.",
+      "training_history_boundary": "Prior-based procedure; no neural model training in this evaluation.",
+      "source_reference": "phase3_benchmark_prep/dataset_expansion/runs_twelve/M01__D01_summary.json"
+    },
+    {
+      "method_id": "M02",
+      "display_name": "CAP",
+      "recorded_executed_variant": "CAP",
+      "repository_url": "https://github.com/JiamingMai/Color-Attenuation-Prior-Dehazing",
+      "checkpoint_file": "Not applicable",
+      "checkpoint_sha256": "",
+      "source_identity": "0c8119422ba12bb08f159e972e6a859e20a56066",
+      "concise_configuration": "Color attenuation prior; radius 15, beta 1, epsilon 0.001, residual sigma 0.041337; no neural checkpoint.",
+      "training_history_boundary": "Prior-based procedure; no neural model training in this evaluation.",
+      "source_reference": "phase3_benchmark_prep/dataset_expansion/runs_twelve/M02__D01_summary.json"
+    },
+    {
+      "method_id": "S12",
+      "display_name": "DehazeNet",
+      "recorded_executed_variant": "DehazeNet",
+      "repository_url": "https://github.com/caibolun/DehazeNet",
+      "checkpoint_file": "dehaze.mat",
+      "checkpoint_sha256": "1A8B2D928EDC3FB9992F4A598002CC87897FCBDA003510583BDAB1008E44B602",
+      "source_identity": "86f8b7359621654dce8d6fded8f38888b3c22c3e",
+      "concise_configuration": "Repository dehaze.mat with the official run_cnn path and Windows MEX; clamp at serialization.",
+      "training_history_boundary": "Specific pretrained-weight training history and training-image overlap not independently established by these inference records.",
+      "source_reference": "phase3_benchmark_prep/dataset_expansion/runs_twelve/S12__D01_summary.json"
+    },
+    {
+      "method_id": "M07",
+      "display_name": "AOD-Net",
+      "recorded_executed_variant": "AOD-Net",
+      "repository_url": "https://github.com/Boyiliee/AOD-Net",
+      "checkpoint_file": "AOD_Net.caffemodel",
+      "checkpoint_sha256": "B1178B80567361A8F11AD8CCE1437B5523D6AA4A536BB1CA088D06B15B2439BD",
+      "source_identity": "0f1d380955cce6cee44213ebef0bdb486cefff3e",
+      "concise_configuration": "AOD_Net.caffemodel; RGB [0,1]; no additional resizing/cropping; uint8 truncation.",
+      "training_history_boundary": "Specific pretrained-weight training history and training-image overlap not independently established by these inference records.",
+      "source_reference": "phase3_benchmark_prep/dataset_expansion/runs_twelve/M07__D01_summary.json"
+    },
+    {
+      "method_id": "M10",
+      "display_name": "GridDehazeNet",
+      "recorded_executed_variant": "GridDehazeNet-outdoor",
+      "repository_url": "https://github.com/proteus1991/GridDehazeNet",
+      "checkpoint_file": "outdoor_haze_best_3_6",
+      "checkpoint_sha256": "80A8F3AAD5FD0ED744F39BD60BDA802087FBB48B2FA2CE86261AC443A4DBA396",
+      "source_identity": "481399129614c3e7c8e892b5d52d60173131dda0",
+      "concise_configuration": "Outdoor release; RGB normalized to [-1,1]; full-image inference; uint8 rounding.",
+      "training_history_boundary": "Specific pretrained-weight training history and training-image overlap not independently established by these inference records.",
+      "source_reference": "phase3_benchmark_prep/dataset_expansion/runs_twelve/M10__D01_summary.json"
+    },
+    {
+      "method_id": "M32",
+      "display_name": "WBPGNDN",
+      "recorded_executed_variant": "WBPGNDN",
+      "repository_url": "https://github.com/killsking/WBPGNDN",
+      "checkpoint_file": "Best.pkl",
+      "checkpoint_sha256": "D45BDDDDA4C463F1D7E4E2BC815FEB66B26427FE36858B43522C3490BDC4152A",
+      "source_identity": "author Drive release package; no VCS metadata",
+      "concise_configuration": "Author release Best.pkl; strict state loading; release-native upfirdn2d backend; factor-8 reflect padding and crop.",
+      "training_history_boundary": "Specific pretrained-weight training history and training-image overlap not independently established by these inference records.",
+      "source_reference": "phase3_benchmark_prep/dataset_expansion/runs_twelve/M32__D01_summary.json"
+    },
+    {
+      "method_id": "M12",
+      "display_name": "FFA-Net",
+      "recorded_executed_variant": "FFA-Net",
+      "repository_url": "https://github.com/zhilin007/FFA-Net",
+      "checkpoint_file": "ots_train_ffa_3_19.pk",
+      "checkpoint_sha256": "1C80E4AD4F4E8AE82CA773B66CBE47FD85EA78375E0A7F503B2585ED54DA7723",
+      "source_identity": "6651bcf693edd3ba2d097f728676942bd40e6e99",
+      "concise_configuration": "OTS FFA(3 groups, 19 blocks); channel mean [0.64,0.60,0.58], std [0.14,0.15,0.152]; clamp and round.",
+      "training_history_boundary": "Specific pretrained-weight training history and training-image overlap not independently established by these inference records.",
+      "source_reference": "phase3_benchmark_prep/dataset_expansion/runs_twelve/M12__D01_summary.json"
+    },
+    {
+      "method_id": "M19",
+      "display_name": "MB-TaylorFormer",
+      "recorded_executed_variant": "MB-TaylorFormer",
+      "repository_url": "https://github.com/FVL2020/ICCV-2023-MB-TaylorFormer",
+      "checkpoint_file": "OTS-MB-TaylorFormer-B.pth",
+      "checkpoint_sha256": "3E4DB21CCBB3DE6226F8ACDC82C66EBCB9F44B51D331D064E8F3E4841E3C1252",
+      "source_identity": "c504250a45a91cefb20c9ee706df0a834e62beb0",
+      "concise_configuration": "OTS B checkpoint; RGB [0,1]; factor-8 reflect padding; crop and clamp output.",
+      "training_history_boundary": "Specific pretrained-weight training history and training-image overlap not independently established by these inference records.",
+      "source_reference": "phase3_benchmark_prep/dataset_expansion/runs_twelve/M19__D01_summary.json"
+    },
+    {
+      "method_id": "S01",
+      "display_name": "PromptIR",
+      "recorded_executed_variant": "PromptIR",
+      "repository_url": "https://github.com/va1shn9v/PromptIR",
+      "checkpoint_file": "model.ckpt",
+      "checkpoint_sha256": "B77EF1A099B756C5F59A32E86F4B75616F467258E997E46FE5ACF57855A912C3",
+      "source_identity": "UNRECORDED_LEGACY_ASSET",
+      "concise_configuration": "Released model.ckpt; RGB [0,1]; reflect padding to factor 8; tiled adapter (defaults 384/32); exact source commit not recorded.",
+      "training_history_boundary": "Specific pretrained-weight training history and training-image overlap not independently established by these inference records.",
+      "configuration_boundary": "384/32 are retained adapter defaults, not independently proved launch overrides. Use \"tiled adapter\" unless launch command is verified.",
+      "source_reference": "phase3_benchmark_prep/dataset_expansion/runs_twelve/S01__D01_summary.json"
+    },
+    {
+      "method_id": "S14",
+      "display_name": "MixDehazeNet",
+      "recorded_executed_variant": "MixDehazeNet-B-outdoor",
+      "repository_url": "https://github.com/AmeryXiong/MixDehazeNet",
+      "checkpoint_file": "MixDehazeNet-b.pth",
+      "checkpoint_sha256": "D1EDC8A0181665902C0504476CC56556709D51241E5E394691B53EA54C3805F1",
+      "source_identity": "90a04740bf9d4443a0ac8f78d8bca3c5f81650cc",
+      "concise_configuration": "Outdoor B checkpoint; RGB [-1,1]; factor-4 reflect padding; crop, clamp, map to [0,1], and round.",
+      "training_history_boundary": "Specific pretrained-weight training history and training-image overlap not independently established by these inference records.",
+      "source_reference": "phase3_benchmark_prep/dataset_expansion/runs_twelve/S14__D01_summary.json"
+    }
+  ]
+}

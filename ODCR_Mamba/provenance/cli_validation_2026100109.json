@@ -1,0 +1,19 @@
+{
+  "synthetic_single_image_cli": "passed",
+  "same_dimensions_rgb_output": true,
+  "cli_pixels_equal_contiguous_tensor_reference": true,
+  "existing_output_refused_without_change": true,
+  "under_16_pixels_refused": true,
+  "syntax_and_json_parse": "passed",
+  "absolute_path_and_token_pattern_scan": "passed",
+  "scanned_file_count": 41,
+  "per_image_record_counts": {
+    "odcr_natural_185_2026100109.csv": 185,
+    "odcr_rrshid_branches_912_2026100109.csv": 912,
+    "odcr_rrshid_test304_2026100109.csv": 304,
+    "sots200_all_methods_4400_2026100109.csv": 4400,
+    "sots200_odcr_400_2026100109.csv": 400
+  },
+  "scope": "Only synthetic CLI packaging tests. No dataset inference or training; no new scientific results.",
+  "generated_at_hour": "2026-10-01 09:00 +08:00"
+}
