@@ -9,10 +9,6 @@
       "sha256": "2E2E56B34174A9B31F1C291C516C6085207C3974C2FCBB2AEDD4FBFBA6890DF9",
       "bytes": 77023163
     },
-    "new_algorithm_project/phase17_odcr_mamba/paper_preparation/standalone_rewrite_2026081813/V100_精简审稿修订红字_2026100108/ODCR_Mamba_Supplement_Redline_2026100108.docx": {
-      "sha256": "A1EA2411BF2183974895445FCF2DBB0B22550F2DA222900C7D1819E8FECCAC0F",
-      "bytes": 42159
-    },
     "new_algorithm_project/phase17_odcr_mamba/paper_preparation/standalone_rewrite_2026081813/V78_删除英文摘要与SLP_2026091823/data/PAPER_FOUR_METRICS_2026091823.csv": {
       "sha256": "DC0F123212E95D3D34DF552EE18F0A625C91985B057F2836C42067A59D1241D8",
       "bytes": 1447550
@@ -57,10 +53,6 @@
       "sha256": "E769DCD7A4C215A946E47DDEEF2464033336D47B51F0BC32B9D8F99C5950C470",
       "bytes": 26364
     },
-    "new_algorithm_project/phase17_odcr_mamba/paper_preparation/revision_v100_2026100108/PAIRED_BRANCH_STATISTICS_2026100108.json": {
-      "sha256": "085FD08576098DF5B03E0E586DCE37B651037C6BF4FD39EA1D215F814763931D",
-      "bytes": 4791
-    },
     "new_algorithm_project/phase17_odcr_mamba/paper_preparation/standalone_rewrite_2026081813/V78_删除英文摘要与SLP_2026091823/data/SOTS200_PER_IMAGE_2026091823.csv": {
       "sha256": "EA2415328738FFA62712160455B8A560ABF18CD1465D7466CEC90B36903A0469",
       "bytes": 2841803
@@ -92,10 +84,6 @@
     "new_algorithm_project/phase17_odcr_mamba/paper_preparation/standalone_rewrite_2026081813/result_autofill_2026090711/fixed_odcr_rrshid_test_2026090711/formal_304/FORMAL_PER_IMAGE_2026090711.csv": {
       "sha256": "CAFC3897829D8E0432298A9751775A51BD7EE945E989E4AC287DB8AA7122F9BA",
       "bytes": 760108
-    },
-    "new_algorithm_project/phase17_odcr_mamba/paper_preparation/revision_v100_2026100108/paired_branch_bootstrap_2026100108.py": {
-      "sha256": "B60DF7E7FAE0F4EAFA9CD39580E5B7234606FBB23817B738D3A2F0D7F955433D",
-      "bytes": 7655
     },
     "new_algorithm_project/phase17_odcr_mamba/paper_preparation/github_release_2026100109/export_public_results_2026100109.py": {
       "sha256": "CC7CC99C2621453B611A781DE03D86D3D3E8C628F39EDD5D334FA02038F1075E",
@@ -152,52 +140,8 @@
       "data_rows": 3
     },
     "results/main_tables/main_tables_fullprecision_2026100109.json": {
-      "sha256": "753F0DF6A5E9143AA97A6843EE75A75BC27B99D3420554CA7D9672DF42EAB299",
-      "bytes": 44307,
-      "kind": "machine_readable_scalar_evidence"
-    },
-    "results/supplement/table_S1_display_2026100109.csv": {
-      "sha256": "501CBC20F723E6BBBE2B0C76AFFE54EF24D6077E17C44864DB9D87E61A9441B4",
-      "bytes": 464,
-      "kind": "paper_display_values",
-      "data_rows": 11
-    },
-    "results/supplement/table_S2_display_2026100109.csv": {
-      "sha256": "3EB038B0601DDD60C7E6CC9593C53C1F9319060434BA53B1EB1E99D9BEC9563A",
-      "bytes": 332,
-      "kind": "paper_display_values",
-      "data_rows": 8
-    },
-    "results/supplement/table_S3_display_2026100109.csv": {
-      "sha256": "E78B409C31B37AF9A9DF450976A3B3157FE4926F9A8987948BA02776871F3238",
-      "bytes": 1633,
-      "kind": "paper_display_values",
-      "data_rows": 10
-    },
-    "results/supplement/table_S4_display_2026100109.csv": {
-      "sha256": "BD35BD57AEBF182752960A68B23359096DE2EE0AC7CB88738A2DDFA84AD3636A",
-      "bytes": 231,
-      "kind": "paper_display_values",
-      "data_rows": 4
-    },
-    "results/supplement/table_S1_evidence_2026100109.json": {
-      "sha256": "622C48BD5FC20562A22CF591837720DAB1ADE912E1721AC18AF8EFE0A33CFD38",
-      "bytes": 4711,
-      "kind": "machine_readable_scalar_evidence"
-    },
-    "results/supplement/table_S2_evidence_2026100109.json": {
-      "sha256": "8BB2CA5F541D949E8CBFCEC5F8904AA07C7A28D7EE57142DDB01878E2F7D18D8",
-      "bytes": 4542,
-      "kind": "machine_readable_scalar_evidence"
-    },
-    "results/supplement/table_S3_evidence_2026100109.json": {
-      "sha256": "C1BFB86A668429E49DC8EC92F8A29C65E093020A158CAB6513E060FBEF182986",
-      "bytes": 8361,
-      "kind": "machine_readable_scalar_evidence"
-    },
-    "results/supplement/table_S4_evidence_2026100109.json": {
-      "sha256": "79FE3B54A16F3144C563AB983DEFD4CE00E8D7D7B66BD086961E1B9E3B8A4113",
-      "bytes": 5070,
+      "sha256": "E6B4B73FA3EAE7AADC4EAFE1974758FD553201CE7FA27517A6B52D7572EC2071",
+      "bytes": 44314,
       "kind": "machine_readable_scalar_evidence"
     },
     "results/per_image/odcr_natural_185_2026100109.csv": {
@@ -237,14 +181,13 @@
       "data_rows": 304
     },
     "results/RESULTS_SCHEMA_2026100109.json": {
-      "sha256": "DC0C2F30577A18B368ACAECE941DB540E93555AF6DFD882F1C54FB997018F692",
-      "bytes": 1801,
+      "sha256": "0BC7E675E7E981AEC5B5295343E240C2E893DA9AC3C08F987B5B4F611E40CD2E",
+      "bytes": 1823,
       "kind": "schema_and_interpretation"
     }
   },
   "validation": {
     "main_word_table_count": 20,
-    "supplement_word_table_count": 4,
     "natural_all_methods_unique_2035": true,
     "Table_I_all_display_cells_match_fullprecision": true,
     "Table_II_all_display_cells_match_fullprecision": true,
@@ -315,39 +258,6 @@
       "distinct_fixed_model_SOTS_pairs": 1000,
       "must_not_sum_overlapping_exports": true
     },
-    "S1_all_display_cells_match_fullprecision": true,
-    "S1_aggregate_M01_D01": true,
-    "S1_aggregate_M01_D02": true,
-    "S1_aggregate_M02_D01": true,
-    "S1_aggregate_M02_D02": true,
-    "S1_aggregate_S12_D01": true,
-    "S1_aggregate_S12_D02": true,
-    "S1_aggregate_M07_D01": true,
-    "S1_aggregate_M07_D02": true,
-    "S1_aggregate_M10_D01": true,
-    "S1_aggregate_M10_D02": true,
-    "S1_aggregate_M32_D01": true,
-    "S1_aggregate_M32_D02": true,
-    "S1_aggregate_M12_D01": true,
-    "S1_aggregate_M12_D02": true,
-    "S1_aggregate_M19_D01": true,
-    "S1_aggregate_M19_D02": true,
-    "S1_aggregate_S01_D01": true,
-    "S1_aggregate_S01_D02": true,
-    "S1_aggregate_S14_D01": true,
-    "S1_aggregate_S14_D02": true,
-    "S1_aggregate_ODCR-D696_D01": true,
-    "S1_aggregate_ODCR-D696_D02": true,
-    "S2_all_display_cells_match_fullprecision": true,
-    "S3_checkpoint_prefix_S12": true,
-    "S3_checkpoint_prefix_M07": true,
-    "S3_checkpoint_prefix_M10": true,
-    "S3_checkpoint_prefix_M32": true,
-    "S3_checkpoint_prefix_M12": true,
-    "S3_checkpoint_prefix_M19": true,
-    "S3_checkpoint_prefix_S01": true,
-    "S3_checkpoint_prefix_S14": true,
-    "S4_all_display_cells_match_fullprecision": true,
     "RR304_formal_source_unique": true,
     "RR304_final_output_record_hash_and_PNG_reload_scalar_join": true,
     "natural_D696_185": true
@@ -357,10 +267,9 @@
     "Natural-image/SOTS supplemental source statuses are retained; publication here does not upgrade them to strict-final evidence.",
     "SOTS200 uses fixed subsets; it is not the complete 500+500 Table V comparison and not a matched-training comparison.",
     "External pretrained training-image overlap and full training histories are not independently established.",
-    "S3 identifies broad-matrix SOTS/natural-image configurations, not automatic certification of separate RRSHID inference chains.",
+    "Broad-matrix SOTS/natural-image configuration provenance does not automatically certify separate RRSHID inference chains.",
     "PromptIR exact source commit and launch tile overrides are not established; 384/32 in retained evidence are adapter defaults only.",
     "The branch comparison is a fixed-weight readout diagnostic, not retrained module removal or causal ablation.",
-    "S4 intervals condition on the saved checkpoint and reference-image sampling; they are not spatial-block intervals or training-seed variability.",
     "No image pixels or model weights were rehashed during this export. Stored hash joins and current source CSV/JSON/DOCX hashes were checked.",
     "CSV displays preserve textual cell values but do not reproduce DOCX bold/underline/italic rank formatting."
   ]

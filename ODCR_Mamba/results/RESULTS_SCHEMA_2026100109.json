@@ -23,13 +23,13 @@
       ],
       "evidence_status": "HASH_VERIFIED_SUPPLEMENT_NOT_STRICT_FINAL"
     },
-    "Table_S1": {
+    "SOTS200_comparison_subset": {
       "all_methods_file": "results/per_image/sots200_all_methods_4400_2026100109.csv",
       "fixed_model_subset_file": "results/per_image/sots200_odcr_400_2026100109.csv",
       "methods": 11,
       "pairs_per_method_per_dataset": 200
     },
-    "overlap": "All 400 fixed-model S1 records are a strict subset of the 1000 Table V records. Input/GT/output/checkpoint hashes and PSNR/SSIM match. The 400-row convenience file also duplicates the ODCR-D696 rows in the 4400-row file. Do not add these overlapping exports as independent samples."
+    "overlap": "All 400 fixed-model SOTS200 records are a strict subset of the 1000 Table V records. Input/GT/output/checkpoint hashes and PSNR/SSIM match. The 400-row convenience file also duplicates the ODCR-D696 rows in the 4400-row file. Do not add these overlapping exports as independent samples."
   },
   "hash_scope": "Image hashes are inherited from source records; CSV/JSON/DOCX source file hashes were computed in this export. Raw image pixels were not opened or rehashed.",
   "statuses": "Retained evidence/status labels are not promoted into a new formal validation claim."

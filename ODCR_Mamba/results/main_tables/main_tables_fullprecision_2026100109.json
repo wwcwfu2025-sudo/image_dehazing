@@ -1143,7 +1143,7 @@
         "new_algorithm_project/phase17_odcr_mamba/paper_preparation/standalone_rewrite_2026081813/completed_comparison_r2_2026091309/FOUR_METRICS_PER_IMAGE_2026091309.csv",
         "new_algorithm_project/phase17_odcr_mamba/paper_preparation/standalone_rewrite_2026081813/V78_删除英文摘要与SLP_2026091823/data/TABLE4_RESTORED_SOURCE_2026091823.csv"
       ],
-      "evidence_boundary": "One fixed model on complete 500+500 stored SOTS pairs. Retained status COMPUTED_NOT_STRICT_FINAL; distinct from S1's 200+200 configuration comparison.",
+      "evidence_boundary": "One fixed model on complete 500+500 stored SOTS pairs. Retained status COMPUTED_NOT_STRICT_FINAL; distinct from the SOTS200 200+200 configuration comparison.",
       "word_table_zero_based_index": 10,
       "display_file": "results/main_tables/table_V_display_2026100109.csv",
       "three_decimal_display_verified": true
