@@ -1,0 +1,74 @@
+{
+  "natural_and_sots_ssim": "RGB Gaussian window 11x11, sigma 1.5, valid region.",
+  "rrshid_ssim": "RGB Uniform11, zero padding; separate metric identity from Gaussian11.",
+  "psnr": "Higher is better, dB.",
+  "lpips_dists": "Lower is better.",
+  "branch_ids": {
+    "direct": "direct reconstruction",
+    "physical": "scattering-constrained reconstruction",
+    "output": "final pixelwise fused output"
+  },
+  "sample_keys": "Dataset-scoped pair_key identifiers are retained, not local filesystem paths. source_name is a dataset-relative image name.",
+  "hash_scope": "Image hashes are inherited from source records; CSV/JSON/DOCX source file hashes were computed in this export. Raw image pixels were not opened or rehashed.",
+  "statuses": "Retained evidence/status labels are not promoted into a new formal validation claim.",
+  "paper_version": "V101",
+  "method_registry": "results/PAPER_METHODS_2026100210.json",
+  "main_table_count": 8,
+  "per_image_exports": {
+    "results/per_image/natural_11_methods_2035_2026100210.csv": {
+      "data_rows": 2035,
+      "methods": [
+        "DCP",
+        "CAP",
+        "DehazeNet",
+        "AOD-Net",
+        "GridDehazeNet",
+        "WBPGNDN",
+        "FFA-Net",
+        "MB-TaylorFormer",
+        "PromptIR",
+        "MixDehazeNet",
+        "ODCR-Mamba"
+      ],
+      "main_tables": [
+        "I",
+        "II",
+        "IV"
+      ]
+    },
+    "results/per_image/sots500_odcr_1000_2026100210.csv": {
+      "data_rows": 1000,
+      "methods": [
+        "ODCR-Mamba"
+      ],
+      "main_tables": [
+        "V"
+      ]
+    },
+    "results/per_image/odcr_rrshid_test304_2026100210.csv": {
+      "data_rows": 304,
+      "methods": [
+        "ODCR-Mamba"
+      ],
+      "main_tables": [
+        "III"
+      ]
+    },
+    "results/per_image/odcr_rrshid_branches_912_2026100210.csv": {
+      "data_rows": 912,
+      "methods": [
+        "ODCR-Mamba"
+      ],
+      "main_tables": [
+        "VIII"
+      ]
+    }
+  },
+  "sample_relationships": [
+    "Natural-image comparisons contain 11 methods on the same 185 pairs (30 I-HAZE, 45 O-HAZE, 55 Dense-Haze, 55 NH-HAZE); these are 2035 measurements, not 2035 independent scenes.",
+    "Table V contains only ODCR-Mamba on 500 indoor and 500 outdoor SOTS pairs. No additional SOTS subset comparison is included.",
+    "The 304 RRSHID fused-output rows also occur among the 912 branch rows; the three branches use the same 304 pairs and cannot be counted as independent samples."
+  ],
+  "coverage_limit": "The package contains all eight main-table displays and full available aggregate scalar precision. Per-image records are provided only for the listed exports; external-method RRSHID per-image records and per-image records for Tables VI/VII are not included. This package does not claim complete raw-data or training reproducibility.",
+  "generated_beijing_hour": "2026-10-02 10"
+}

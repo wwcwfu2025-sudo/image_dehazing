@@ -1,14 +1,12 @@
 {
-  "export_id": "2026100109",
-  "paper_version": "V100 2026100108",
+  "export_id": "2026100210",
+  "paper_version": "V101 2026100111",
+  "source_document_sha256": "B7D5F68BF9D64527BBDE022604489FE4F26866782CE1C9DB4AB2E998EF3080EB",
   "checkpoint_sha256": "D696BBFA42DD1A840708B9C42E824036862ED17D538B2B47551641D8145854DB",
-  "scope": "Read-only extraction and scalar arithmetic over existing evidence. No training, model inference, image metric recomputation, raw images, private absolute paths, checkpoint files, or network publication.",
+  "scope": "Main-paper-only repackaging of existing measurements for 10 named external methods plus ODCR-Mamba. No model training, inference or image metric recomputation. Main-paper values are unchanged. Raw research archives are not modified.",
+  "method_registry": "results/PAPER_METHODS_2026100210.json",
   "sources_project_relative_to": "image_dehazing repository root",
   "sources": {
-    "new_algorithm_project/phase17_odcr_mamba/paper_preparation/standalone_rewrite_2026081813/V100_精简审稿修订红字_2026100108/ODCR_Mamba_TGRS_Redline_2026100108.docx": {
-      "sha256": "2E2E56B34174A9B31F1C291C516C6085207C3974C2FCBB2AEDD4FBFBA6890DF9",
-      "bytes": 77023163
-    },
     "new_algorithm_project/phase17_odcr_mamba/paper_preparation/standalone_rewrite_2026081813/V78_删除英文摘要与SLP_2026091823/data/PAPER_FOUR_METRICS_2026091823.csv": {
       "sha256": "DC0F123212E95D3D34DF552EE18F0A625C91985B057F2836C42067A59D1241D8",
       "bytes": 1447550
@@ -49,14 +47,6 @@
       "sha256": "B45DCB98368F9F8E42D5A6E4EDD583DB65096940FB482260B801B33D43508B57",
       "bytes": 6228
     },
-    "new_algorithm_project/phase17_odcr_mamba/paper_preparation/revision_v100_2026100108/SUPPLEMENT_EVIDENCE_2026100108.json": {
-      "sha256": "E769DCD7A4C215A946E47DDEEF2464033336D47B51F0BC32B9D8F99C5950C470",
-      "bytes": 26364
-    },
-    "new_algorithm_project/phase17_odcr_mamba/paper_preparation/standalone_rewrite_2026081813/V78_删除英文摘要与SLP_2026091823/data/SOTS200_PER_IMAGE_2026091823.csv": {
-      "sha256": "EA2415328738FFA62712160455B8A560ABF18CD1465D7466CEC90B36903A0469",
-      "bytes": 2841803
-    },
     "new_algorithm_project/phase17_odcr_mamba/paper_preparation/standalone_rewrite_2026081813/result_autofill_2026090711/rrshid_test_manifest_2026090711/T01_RRSHID_TEST_PAIR_MANIFEST_2026090711.csv": {
       "sha256": "29CDDC855FD7742C86D775F1D01094E1194D8494C0B0CDCB5517230BD4125D14",
       "bytes": 142707
@@ -85,192 +75,233 @@
       "sha256": "CAFC3897829D8E0432298A9751775A51BD7EE945E989E4AC287DB8AA7122F9BA",
       "bytes": 760108
     },
-    "new_algorithm_project/phase17_odcr_mamba/paper_preparation/github_release_2026100109/export_public_results_2026100109.py": {
-      "sha256": "CC7CC99C2621453B611A781DE03D86D3D3E8C628F39EDD5D334FA02038F1075E",
-      "bytes": 29549
+    "new_algorithm_project/phase17_odcr_mamba/paper_preparation/standalone_rewrite_2026081813/V101_取消补充材料_2026100111/ODCR_Mamba_TGRS_MainOnly_Redline_2026100111.docx": {
+      "sha256": "B7D5F68BF9D64527BBDE022604489FE4F26866782CE1C9DB4AB2E998EF3080EB",
+      "bytes": 77022717
     }
   },
   "outputs": {
-    "results/main_tables/table_I_display_2026100109.csv": {
+    "results/main_tables/main_tables_fullprecision_2026100210.json": {
+      "sha256": "55BEE56D631C5E5749C02F9D2C475C9BCA4D986B65F66F49F3E101F595F788A7",
+      "bytes": 45780
+    },
+    "results/main_tables/table_I_display_2026100210.csv": {
       "sha256": "BF378E90DBF3E627AB5915B2B93319D2DE3F85DD50053DF3897DE06E872B1307",
       "bytes": 1374,
-      "kind": "paper_display_values",
       "data_rows": 11
     },
-    "results/main_tables/table_II_display_2026100109.csv": {
+    "results/main_tables/table_II_display_2026100210.csv": {
       "sha256": "54C350416CBEEE2603ED0C1DAC1CDB6A72AA9B3DC538E8AB6A4ACC89B9AA79C9",
       "bytes": 1214,
-      "kind": "paper_display_values",
       "data_rows": 11
     },
-    "results/main_tables/table_III_display_2026100109.csv": {
+    "results/main_tables/table_III_display_2026100210.csv": {
       "sha256": "846C6B95B37069089281862686E582444B5369D7EC1416A5F5446B2272BB6443",
       "bytes": 480,
-      "kind": "paper_display_values",
       "data_rows": 11
     },
-    "results/main_tables/table_IV_display_2026100109.csv": {
+    "results/main_tables/table_IV_display_2026100210.csv": {
       "sha256": "61BD632A1DF204E3C02847F8B24C01379EF02868DE975F13AF7BDB3D4EFDD31D",
       "bytes": 1255,
-      "kind": "paper_display_values",
       "data_rows": 11
     },
-    "results/main_tables/table_V_display_2026100109.csv": {
+    "results/main_tables/table_V_display_2026100210.csv": {
       "sha256": "11C5FB84B58E9AB824C008D5B636ED4186B51CA88A5BF61B4CBA81B45DDFFC0F",
       "bytes": 129,
-      "kind": "paper_display_values",
       "data_rows": 2
     },
-    "results/main_tables/table_VI_display_2026100109.csv": {
+    "results/main_tables/table_VI_display_2026100210.csv": {
       "sha256": "7EDC42DF62A032231E0AC7102A8F5E5676BE07219AB1E84F514B581DF82E31AE",
       "bytes": 338,
-      "kind": "paper_display_values",
       "data_rows": 6
     },
-    "results/main_tables/table_VII_display_2026100109.csv": {
+    "results/main_tables/table_VII_display_2026100210.csv": {
       "sha256": "DB81B1E06E6FA2D6DBEAACD5F26F5D0B823C1275521CAB200B911F0254A6459E",
       "bytes": 130,
-      "kind": "paper_display_values",
       "data_rows": 2
     },
-    "results/main_tables/table_VIII_display_2026100109.csv": {
+    "results/main_tables/table_VIII_display_2026100210.csv": {
       "sha256": "CDB6D890E4406AE47D1D3272C9B28C738E79183A59E3D996BB7574ACA758B4BD",
       "bytes": 165,
-      "kind": "paper_display_values",
       "data_rows": 3
     },
-    "results/main_tables/main_tables_fullprecision_2026100109.json": {
-      "sha256": "E6B4B73FA3EAE7AADC4EAFE1974758FD553201CE7FA27517A6B52D7572EC2071",
-      "bytes": 44314,
-      "kind": "machine_readable_scalar_evidence"
+    "results/PAPER_METHODS_2026100210.json": {
+      "sha256": "8B8DA450D40ABDA0340071ECE3121806E8C4D4B7498D4AFAB35CF52D9A008B99",
+      "bytes": 3015
     },
-    "results/per_image/odcr_natural_185_2026100109.csv": {
-      "sha256": "74C3E70B560EB2272078843F4A245AD9C91F0C01BFA728F720B53DC9B380C8B9",
-      "bytes": 76785,
-      "kind": "per_image_scalar_records",
-      "data_rows": 185
+    "results/per_image/natural_11_methods_2035_2026100210.csv": {
+      "sha256": "6AD6D6E54897845269005E22421C433B458C6BB80AB31F37484DF74DAD64D44C",
+      "bytes": 731534,
+      "data_rows": 2035
     },
-    "results/per_image/sots500_odcr_1000_2026100109.csv": {
-      "sha256": "C623125251ED80CA759B28DB9BE75DA73BA600066624FEAD5F6D121EAF640F7B",
-      "bytes": 416150,
-      "kind": "per_image_scalar_records",
-      "data_rows": 1000
-    },
-    "results/per_image/sots200_all_methods_4400_2026100109.csv": {
-      "sha256": "6F9C60CEB87B806018D7225FE5D9A02E0943B7AF88D032068C3173A446655173",
-      "bytes": 1274327,
-      "kind": "per_image_scalar_records",
-      "data_rows": 4400
-    },
-    "results/per_image/sots200_odcr_400_2026100109.csv": {
-      "sha256": "3FD6722D9B331DDF81D7FB61F90340DFC51733F8CCD78120ED174B86B77F7A3A",
-      "bytes": 141445,
-      "kind": "per_image_scalar_records",
-      "data_rows": 400
-    },
-    "results/per_image/odcr_rrshid_branches_912_2026100109.csv": {
-      "sha256": "C71E79E39AB014BC3CA0957911898553F727CD87F922735060BF0BE6B158784E",
-      "bytes": 428782,
-      "kind": "per_image_scalar_records",
+    "results/per_image/odcr_rrshid_branches_912_2026100210.csv": {
+      "sha256": "0518AD06AC04CE90055083715CD58DF6623A724FC0E9A69532ED61BFCCEEF67C",
+      "bytes": 438821,
       "data_rows": 912
     },
-    "results/per_image/odcr_rrshid_test304_2026100109.csv": {
-      "sha256": "E403AB83AFA9D6943E02D70396F14E20A45B8F75726F1A528C706C9935403676",
-      "bytes": 146772,
-      "kind": "per_image_scalar_records",
+    "results/per_image/odcr_rrshid_test304_2026100210.csv": {
+      "sha256": "56F2A7E32430B89D46298CEC12DEBC274C637014132D440DDCACE240FE170428",
+      "bytes": 150123,
       "data_rows": 304
     },
-    "results/RESULTS_SCHEMA_2026100109.json": {
-      "sha256": "0BC7E675E7E981AEC5B5295343E240C2E893DA9AC3C08F987B5B4F611E40CD2E",
-      "bytes": 1823,
-      "kind": "schema_and_interpretation"
+    "results/per_image/sots500_odcr_1000_2026100210.csv": {
+      "sha256": "A707413033FB9B429199234035641C3E2BC5B4685469E59413784BD14814629C",
+      "bytes": 427157,
+      "data_rows": 1000
+    },
+    "results/RESULTS_SCHEMA_2026100210.json": {
+      "sha256": "2431E4215FC5D40DFB63BFACFCC2F544662630C3D780B4F1714466AEDCE55AF1",
+      "bytes": 2950
     }
   },
   "validation": {
-    "main_word_table_count": 20,
-    "natural_all_methods_unique_2035": true,
-    "Table_I_all_display_cells_match_fullprecision": true,
-    "Table_II_all_display_cells_match_fullprecision": true,
-    "Table_III_all_display_cells_match_fullprecision": true,
-    "natural_aggregate_M01_D04": true,
-    "natural_aggregate_M01_D05": true,
-    "natural_aggregate_M01_D06": true,
-    "natural_aggregate_M01_D07": true,
-    "natural_aggregate_M02_D04": true,
-    "natural_aggregate_M02_D05": true,
-    "natural_aggregate_M02_D06": true,
-    "natural_aggregate_M02_D07": true,
-    "natural_aggregate_S12_D04": true,
-    "natural_aggregate_S12_D05": true,
-    "natural_aggregate_S12_D06": true,
-    "natural_aggregate_S12_D07": true,
-    "natural_aggregate_M07_D04": true,
-    "natural_aggregate_M07_D05": true,
-    "natural_aggregate_M07_D06": true,
-    "natural_aggregate_M07_D07": true,
-    "natural_aggregate_M10_D04": true,
-    "natural_aggregate_M10_D05": true,
-    "natural_aggregate_M10_D06": true,
-    "natural_aggregate_M10_D07": true,
-    "natural_aggregate_M32_D04": true,
-    "natural_aggregate_M32_D05": true,
-    "natural_aggregate_M32_D06": true,
-    "natural_aggregate_M32_D07": true,
-    "natural_aggregate_M12_D04": true,
-    "natural_aggregate_M12_D05": true,
-    "natural_aggregate_M12_D06": true,
-    "natural_aggregate_M12_D07": true,
-    "natural_aggregate_M19_D04": true,
-    "natural_aggregate_M19_D05": true,
-    "natural_aggregate_M19_D06": true,
-    "natural_aggregate_M19_D07": true,
-    "natural_aggregate_S01_D04": true,
-    "natural_aggregate_S01_D05": true,
-    "natural_aggregate_S01_D06": true,
-    "natural_aggregate_S01_D07": true,
-    "natural_aggregate_S14_D04": true,
-    "natural_aggregate_S14_D05": true,
-    "natural_aggregate_S14_D06": true,
-    "natural_aggregate_S14_D07": true,
-    "natural_aggregate_ODCR-D696_D04": true,
-    "natural_aggregate_ODCR-D696_D05": true,
-    "natural_aggregate_ODCR-D696_D06": true,
-    "natural_aggregate_ODCR-D696_D07": true,
-    "Table_IV_all_display_cells_match_fullprecision": true,
-    "SOTS_full_D696_1000": true,
-    "SOTS_full_aggregate_D01": true,
-    "SOTS_full_aggregate_D02": true,
-    "Table_V_all_display_cells_match_fullprecision": true,
-    "paired_natural_D696_185": true,
-    "Table_VI_all_display_cells_match_fullprecision": true,
-    "SIFT_input_D696_370_unique": true,
-    "SIFT_record_hash_join_to_fixed_natural_model": true,
-    "Table_VII_all_display_cells_match_fullprecision": true,
-    "branch_D696_912_unique": true,
-    "branch_count_direct": true,
-    "branch_count_physical": true,
-    "branch_count_output": true,
-    "Table_VIII_all_display_cells_match_fullprecision": true,
-    "SOTS200_all_4400_unique": true,
-    "SOTS200_D696_400": true,
-    "SOTS200_fixed_is_hash_and_metric_matched_subset_of_full1000": {
-      "overlapping_rows": 400,
-      "distinct_fixed_model_SOTS_pairs": 1000,
-      "must_not_sum_overlapping_exports": true
-    },
-    "RR304_formal_source_unique": true,
-    "RR304_final_output_record_hash_and_PNG_reload_scalar_join": true,
-    "natural_D696_185": true
+    "V101_document_hash": true,
+    "natural_source_hash": true,
+    "source_file_.gitignore": true,
+    "source_file_configs/fixed_model_2026100109.json": true,
+    "source_file_configs/training_reference_2026100109.json": true,
+    "source_file_infer.py": true,
+    "source_file_provenance/cli_validation_2026100109.json": true,
+    "source_file_provenance/code_sources_2026100109.json": true,
+    "source_file_provenance/code_validation_2026100109.json": true,
+    "source_file_provenance/model_identity_2026100109.json": true,
+    "source_file_PROVENANCE_RESULTS.json": true,
+    "source_file_README.md": true,
+    "source_file_requirements.txt": true,
+    "source_file_results/main_tables/main_tables_fullprecision_2026100109.json": true,
+    "source_file_results/main_tables/table_I_display_2026100109.csv": true,
+    "source_file_results/main_tables/table_II_display_2026100109.csv": true,
+    "source_file_results/main_tables/table_III_display_2026100109.csv": true,
+    "source_file_results/main_tables/table_IV_display_2026100109.csv": true,
+    "source_file_results/main_tables/table_V_display_2026100109.csv": true,
+    "source_file_results/main_tables/table_VI_display_2026100109.csv": true,
+    "source_file_results/main_tables/table_VII_display_2026100109.csv": true,
+    "source_file_results/main_tables/table_VIII_display_2026100109.csv": true,
+    "source_file_results/per_image/odcr_natural_185_2026100109.csv": true,
+    "source_file_results/per_image/odcr_rrshid_branches_912_2026100109.csv": true,
+    "source_file_results/per_image/odcr_rrshid_test304_2026100109.csv": true,
+    "source_file_results/per_image/sots200_all_methods_4400_2026100109.csv": true,
+    "source_file_results/per_image/sots200_odcr_400_2026100109.csv": true,
+    "source_file_results/per_image/sots500_odcr_1000_2026100109.csv": true,
+    "source_file_results/RESULTS_SCHEMA_2026100109.json": true,
+    "source_file_src/odcr_mamba/__init__.py": true,
+    "source_file_src/odcr_mamba/blocks.py": true,
+    "source_file_src/odcr_mamba/losses.py": true,
+    "source_file_src/odcr_mamba/model.py": true,
+    "source_file_src/odcr_mamba/scan.py": true,
+    "source_file_src/odcr_mamba/training_metrics.py": true,
+    "source_file_verify_release.py": true,
+    "source_file_weights/odcr_mamba_d696_state_dict.pt": true,
+    "source_file_.gitattributes": true,
+    "Table_I_matches_V101": true,
+    "Table_I_exact_11_methods": true,
+    "Table_I_numeric_rows_unchanged": true,
+    "Table_II_matches_V101": true,
+    "Table_II_exact_11_methods": true,
+    "Table_II_numeric_rows_unchanged": true,
+    "Table_III_matches_V101": true,
+    "Table_III_exact_11_methods": true,
+    "Table_III_numeric_rows_unchanged": true,
+    "Table_IV_matches_V101": true,
+    "Table_IV_exact_11_methods": true,
+    "Table_IV_numeric_rows_unchanged": true,
+    "Table_V_matches_V101": true,
+    "Table_V_numeric_rows_unchanged": true,
+    "Table_VI_matches_V101": true,
+    "Table_VI_numeric_rows_unchanged": true,
+    "Table_VII_matches_V101": true,
+    "Table_VII_numeric_rows_unchanged": true,
+    "Table_VIII_matches_V101": true,
+    "Table_VIII_numeric_rows_unchanged": true,
+    "natural_source_exact_11_ids": true,
+    "natural_source_name_id_consistency": true,
+    "natural_2035_unique": true,
+    "natural_185_per_method": true,
+    "natural_existing_185_records_exactly_preserved": true,
+    "natural_Table_I_M01": true,
+    "natural_Table_I_M02": true,
+    "natural_Table_I_S12": true,
+    "natural_Table_I_M07": true,
+    "natural_Table_I_M10": true,
+    "natural_Table_I_M32": true,
+    "natural_Table_I_M12": true,
+    "natural_Table_I_M19": true,
+    "natural_Table_I_S01": true,
+    "natural_Table_I_S14": true,
+    "natural_Table_I_ODCR-D696": true,
+    "natural_Table_II_M01": true,
+    "natural_Table_II_M02": true,
+    "natural_Table_II_S12": true,
+    "natural_Table_II_M07": true,
+    "natural_Table_II_M10": true,
+    "natural_Table_II_M32": true,
+    "natural_Table_II_M12": true,
+    "natural_Table_II_M19": true,
+    "natural_Table_II_S01": true,
+    "natural_Table_II_S14": true,
+    "natural_Table_II_ODCR-D696": true,
+    "natural_Table_IV_M01_D04": true,
+    "natural_Table_IV_M01_D05": true,
+    "natural_Table_IV_M01_D06": true,
+    "natural_Table_IV_M01_D07": true,
+    "natural_Table_IV_M02_D04": true,
+    "natural_Table_IV_M02_D05": true,
+    "natural_Table_IV_M02_D06": true,
+    "natural_Table_IV_M02_D07": true,
+    "natural_Table_IV_S12_D04": true,
+    "natural_Table_IV_S12_D05": true,
+    "natural_Table_IV_S12_D06": true,
+    "natural_Table_IV_S12_D07": true,
+    "natural_Table_IV_M07_D04": true,
+    "natural_Table_IV_M07_D05": true,
+    "natural_Table_IV_M07_D06": true,
+    "natural_Table_IV_M07_D07": true,
+    "natural_Table_IV_M10_D04": true,
+    "natural_Table_IV_M10_D05": true,
+    "natural_Table_IV_M10_D06": true,
+    "natural_Table_IV_M10_D07": true,
+    "natural_Table_IV_M32_D04": true,
+    "natural_Table_IV_M32_D05": true,
+    "natural_Table_IV_M32_D06": true,
+    "natural_Table_IV_M32_D07": true,
+    "natural_Table_IV_M12_D04": true,
+    "natural_Table_IV_M12_D05": true,
+    "natural_Table_IV_M12_D06": true,
+    "natural_Table_IV_M12_D07": true,
+    "natural_Table_IV_M19_D04": true,
+    "natural_Table_IV_M19_D05": true,
+    "natural_Table_IV_M19_D06": true,
+    "natural_Table_IV_M19_D07": true,
+    "natural_Table_IV_S01_D04": true,
+    "natural_Table_IV_S01_D05": true,
+    "natural_Table_IV_S01_D06": true,
+    "natural_Table_IV_S01_D07": true,
+    "natural_Table_IV_S14_D04": true,
+    "natural_Table_IV_S14_D05": true,
+    "natural_Table_IV_S14_D06": true,
+    "natural_Table_IV_S14_D07": true,
+    "natural_Table_IV_ODCR-D696_D04": true,
+    "natural_Table_IV_ODCR-D696_D05": true,
+    "natural_Table_IV_ODCR-D696_D06": true,
+    "natural_Table_IV_ODCR-D696_D07": true,
+    "sots500_odcr_1000_fixed_model_identity": true,
+    "sots500_odcr_1000_all_original_values_unchanged": true,
+    "odcr_rrshid_test304_fixed_model_identity": true,
+    "odcr_rrshid_test304_all_original_values_unchanged": true,
+    "odcr_rrshid_branches_912_fixed_model_identity": true,
+    "odcr_rrshid_branches_912_all_original_values_unchanged": true,
+    "fixed_model_weights_bytes_unchanged": true
   },
   "evidence_limits": [
     "Table III comprises heterogeneous evaluation/provenance statuses and is not wholly strict-v12 formal.",
-    "Natural-image/SOTS supplemental source statuses are retained; publication here does not upgrade them to strict-final evidence.",
-    "SOTS200 uses fixed subsets; it is not the complete 500+500 Table V comparison and not a matched-training comparison.",
+    "Natural-image/SOTS retained source statuses are retained; publication here does not upgrade them to strict-final evidence.",
     "External pretrained training-image overlap and full training histories are not independently established.",
     "Broad-matrix SOTS/natural-image configuration provenance does not automatically certify separate RRSHID inference chains.",
     "PromptIR exact source commit and launch tile overrides are not established; 384/32 in retained evidence are adapter defaults only.",
     "The branch comparison is a fixed-weight readout diagnostic, not retrained module removal or causal ablation.",
-    "No image pixels or model weights were rehashed during this export. Stored hash joins and current source CSV/JSON/DOCX hashes were checked.",
+    "No raw image pixels were rehashed and no new inference or image metrics were computed. Stored image/checkpoint identities were preserved; source-record and packaged model-weight file integrity hashes were checked.",
     "CSV displays preserve textual cell values but do not reproduce DOCX bold/underline/italic rank formatting."
-  ]
+  ],
+  "coverage_limit": "The package contains all eight main-table displays and full available aggregate scalar precision. Per-image records are provided only for the listed exports; external-method RRSHID per-image records and per-image records for Tables VI/VII are not included. This package does not claim complete raw-data or training reproducibility.",
+  "generated_beijing_hour": "2026-10-02 10"
 }

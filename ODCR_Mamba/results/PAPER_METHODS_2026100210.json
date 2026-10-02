@@ -1,0 +1,91 @@
+{
+  "paper_version": "V101",
+  "paper_sha256": "B7D5F68BF9D64527BBDE022604489FE4F26866782CE1C9DB4AB2E998EF3080EB",
+  "external_comparison_method_count": 10,
+  "total_method_count": 11,
+  "methods": [
+    {
+      "method_id": "M01",
+      "paper_name": "DCP",
+      "paper_reference_number": 3,
+      "role": "external_comparison",
+      "retained_source_configuration_name": "DCP"
+    },
+    {
+      "method_id": "M02",
+      "paper_name": "CAP",
+      "paper_reference_number": 2,
+      "role": "external_comparison",
+      "retained_source_configuration_name": "CAP"
+    },
+    {
+      "method_id": "S12",
+      "paper_name": "DehazeNet",
+      "paper_reference_number": 5,
+      "role": "external_comparison",
+      "retained_source_configuration_name": "DehazeNet"
+    },
+    {
+      "method_id": "M07",
+      "paper_name": "AOD-Net",
+      "paper_reference_number": 7,
+      "role": "external_comparison",
+      "retained_source_configuration_name": "AOD-Net"
+    },
+    {
+      "method_id": "M10",
+      "paper_name": "GridDehazeNet",
+      "paper_reference_number": 8,
+      "role": "external_comparison",
+      "retained_source_configuration_name": "GridDehazeNet"
+    },
+    {
+      "method_id": "M32",
+      "paper_name": "WBPGNDN",
+      "paper_reference_number": 20,
+      "role": "external_comparison",
+      "retained_source_configuration_name": "WBPGNDN"
+    },
+    {
+      "method_id": "M12",
+      "paper_name": "FFA-Net",
+      "paper_reference_number": 9,
+      "role": "external_comparison",
+      "retained_source_configuration_name": "FFA-Net"
+    },
+    {
+      "method_id": "M19",
+      "paper_name": "MB-TaylorFormer",
+      "paper_reference_number": 14,
+      "role": "external_comparison",
+      "retained_source_configuration_name": "MB-TaylorFormer-B"
+    },
+    {
+      "method_id": "S01",
+      "paper_name": "PromptIR",
+      "paper_reference_number": 21,
+      "role": "external_comparison",
+      "retained_source_configuration_name": "PromptIR"
+    },
+    {
+      "method_id": "S14",
+      "paper_name": "MixDehazeNet",
+      "paper_reference_number": 22,
+      "role": "external_comparison",
+      "retained_source_configuration_name": "MixDehazeNet-B"
+    },
+    {
+      "method_id": "ODCR-D696",
+      "paper_name": "ODCR-Mamba",
+      "paper_reference_number": null,
+      "role": "proposed",
+      "retained_source_configuration_name": "ODCR-Mamba"
+    }
+  ],
+  "alias_rule": "MB-TaylorFormer-B and MixDehazeNet-B are retained configuration labels for the M19 and S14 records used by this manuscript. Display names match the paper; checkpoint/image hashes and measurements are not reassigned to another method.",
+  "non_method_controls": {
+    "Input/Hazy": "Unprocessed image control in main Tables VI and VII.",
+    "direct/physical/output": "Readouts of the same ODCR-Mamba weights in main Table VIII; not additional algorithms."
+  },
+  "generated_beijing_hour": "2026-10-02 10"
+}
